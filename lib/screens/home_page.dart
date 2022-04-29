@@ -1,5 +1,6 @@
 import 'package:csi464/screens/screens.dart';
 import 'package:flutter/material.dart';
+import 'package:flutterfire_ui/auth.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -17,7 +18,11 @@ class _HomePageState extends State<HomePage> {
         onPressed: () {
           Navigator.push(
             context,
-            MaterialPageRoute(builder: (context) => const ProfilePage()),
+            MaterialPageRoute(builder: (context) => const ProfileScreen(
+              providerConfigs: [
+                EmailProviderConfiguration()
+              ],
+            )),
           );
 
         },),),
