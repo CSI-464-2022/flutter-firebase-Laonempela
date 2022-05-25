@@ -1,3 +1,12 @@
 export 'auth_gate.dart';
 export 'home_page.dart';
 export 'profile_page.dart';
+export 'covid_info_screen.dart';
+export 'vaccination_home_screen.dart';
+export 'vaccination/vaccination_available.dart';
+export 'vaccination/vaccination_book.dart';
+export 'vaccination/vaccinationsites_screen.dart';
+export 'report_issues_screen.dart';
+export 'chat/message_page_screen.dart';
+export 'chat/message_screen.dart';
+export 'vaccination/bookCovid_test.dart';

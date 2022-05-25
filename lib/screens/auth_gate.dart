@@ -22,7 +22,10 @@ class AuthGate extends StatelessWidget {
                 padding: const EdgeInsets.all(20.0),
                 child: AspectRatio(
                   aspectRatio: 1,
-                  child: Image.network('https://firebase.flutter.dev/img/flutterfire_300x.png'),
+                  child: Image.asset('assets/covidsafe.png',
+                    fit: BoxFit.fitWidth,
+                    width: 240,
+                    height: 240,),
                 ),
               );
             },
